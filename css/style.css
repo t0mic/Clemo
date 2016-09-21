@@ -1,0 +1,367 @@
+@font-face {
+    font-family: 'Montserrat Hairline Light';
+    src: url('fonts/fonts/Montserrat-Hairline.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body { padding-top: 30px;
+}
+
+/*NAVIGATION*/
+#nav{
+	padding: 20px 0 20px 0;
+	background: #fff;
+	border-color: #fff;
+}
+.meni{
+	color: #989898;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+.logo img{
+    margin: -7px 0 20px 0;
+}
+.navbar-header a{
+	line-height: 100px;
+}
+/*NAVIGATION END*/
+/*HEADER*/
+#header{
+	padding: 70px 0 30px 0;
+}
+.button_black{
+	background-color:#000;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #989898;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	padding:9px 32px;
+	text-decoration:none;
+	margin-top: 25px;
+}
+.button_black:hover {
+	background-color:#fff;
+	color: #000;
+}
+.button_black:active {
+	position:relative;
+	top:1px;
+}
+.header_slider{
+	background: #ffe1bd;
+	text-align: center;
+	padding: 80px 0 150px;
+}
+.header_name{
+	font-size: 45px;
+	font-family:'Montserrat', sans-serif;
+}
+.header_underscore{
+	font-size: 30px;
+	font-weight: 400;
+	font-family: Arial;
+	margin-top: -20px;
+}
+.header_desc{
+	font-size: 20px;
+	font-family:'Montserrat', sans-serif;
+	margin-top: -10px;
+	margin-bottom: 20px;
+
+}
+
+/*HEADER END*/
+/*SERVICES*/
+#services{
+	padding: 0 0 30px 0;
+}
+#services h2{
+	font-family: 'Montserrat Hairline Light', sans-serif,'Montserrat', sans-serif;
+	font-size: 45px;
+	padding: 20px 0;
+	color: #656565;
+
+}
+#services p{
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'Montserrat Hairline Light', sans-serif,'Montserrat', sans-serif;
+	color: #656565;
+	text-align: left;
+}
+.spacing{
+	padding: 40px 0;
+
+}
+.line_break{
+	font-family: arial;
+}
+.services-heading{
+	font-weight: bold;
+	font-size: 25px;
+	color: #000;
+}
+.services-text{
+	font-weight: bolder;
+	font-size: 35px;
+	color: #000;
+}
+.indent{
+	padding-left: 30px;
+}
+.button{
+	background-color:#ffffff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #989898;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	padding:9px 32px;
+	text-decoration:none;
+	margin-top: 25px;
+}
+.button:hover {
+	background-color:#000;
+	color: #fff;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+/*SERVICES END*/
+/*BEST WORK*/
+#best_work{
+	padding: 30px 0 30px 0;
+}
+#best_work img{
+	float: left;
+	max-height: 50%;
+	max-width: 50%;
+	padding: 10px;
+}
+.bottom > * {
+
+}
+.bottom_img{
+
+}
+/*BEST WORK END*/
+/*BEST TEAM*/
+#best_team{
+	padding: 50px 0 50px 0;
+	background: #ffe1bd;
+	}
+#best_team .wrapper {
+    text-align: center;
+	}
+#best_team h2{
+	font-family: 'Montserrat Hairline Light', sans-serif,'Montserrat', sans-serif;
+	font-size: 45px;
+	padding: 20px 0;
+	color: #6b5e4d;
+	}
+.bt_name{
+	font-size: 37px;
+	font-family:'Montserrat', sans-serif;
+	}
+.bt_underscore{
+	font-size: 30px;
+	font-weight: 400;
+	font-family: Arial;
+	margin-top: -45px;
+	}
+.bt_proffesion{
+	margin-top: -15px;
+	}
+.bt_img{
+	margin-top: 30px;
+	}
+
+/*BEST TEAM END*/
+/*CLIENT SAYS*/
+#client_says{
+	padding: 50px 0 80px;
+}
+.right_align{
+	text-align: right;
+}
+.left_align{
+	text-align: left;
+}
+#client_says h2{
+	font-family: 'Montserrat Hairline Light', sans-serif,'Montserrat', sans-serif;
+	font-size: 45px;
+	padding: 20px 0;
+	color: #333333;
+}
+#client_says img{
+	cursor: pointer;
+}
+#description{
+	margin-top: 14px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+.cs_name{
+	font-size: 37px;
+	font-family:'Montserrat', sans-serif;
+	padding-right: 20px;
+	}
+.cs_underscore{
+	font-size: 30px;
+	font-weight: 400;
+	font-family: Arial;
+	margin-top: -35px;
+	padding-right: 20px;
+	text-align: right;
+	}
+.cs_proffesion{
+	margin-top: -23px;
+	padding-right: 20px;
+	text-align: right;
+}
+/*CLIENT SAYS END*/
+/*CONTACT*/
+#contact{
+	padding: 80px 0 50px;
+	background: #000;
+}
+#contact a{
+	color:inherit;
+}
+#contact h2{
+	font-family: 'Montserrat Hairline Light', sans-serif,'Montserrat', sans-serif;
+	font-size: 45px;
+	margin-top: -10px;
+	padding: 10px 0 50px;
+	color: #fff;
+}
+#contact p{
+	color: #fff;
+	text-align: left;
+}
+.go_left{
+	float: left;
+	margin-right: 13px;
+}
+.fa_size{
+	font-size: 21px;
+	color: #fff;
+
+}
+.circle{
+    padding: 10px 7px;
+    color: #fff;
+}
+#contact a{
+	text-decoration: none;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+input[type=text], input[type='email']{
+	background: transparent;
+	border:none;
+	border-bottom: 1px solid #333333;
+	width: 70%;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+}
+::-webkit-input-placeholder {
+   color: #333333;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #333333;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #333333;  
+}
+
+:-ms-input-placeholder {  
+   color: #333333; 
+}
+textarea{
+	background: transparent;
+	border:none;
+	border-bottom: 1px solid #333333; 
+	border-top: 1px solid #333333; 
+	resize: none;
+	width: 70%;
+	height: 10%;
+}
+/*CONTACT END*/
+/*FOOTER*/
+#footer{
+	padding: 25px 0;
+}
+#footer h4,p{
+	text-align: center;
+}
+#footer h4{
+	font-weight: 700;
+}
+#footer p{
+	font-family: 'Montserrat Hairline Light', sans-serif,'Montserrat', sans-serif;
+}
+
+/*FOOTER END*/
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 768px) {
+	/*services*/
+	#services h2{
+	padding: 5px 0;
+	text-align: center;
+	}
+	#services h4{
+		text-align: center;
+	}
+	#services p{
+		text-align: left;
+	}
+	#services img{
+		padding: 15px 0 15px 0;
+	}
+	.wrapper {
+    	text-align: center;
+	}
+	/*services end*/
+	/*client says*/
+	.cs_name{
+		text-align: center;
+		font-size: 30px;
+	}
+	.cs_underscore{
+		text-align: center;
+	}
+	.cs_proffesion{
+		text-align: center;
+	}
+	/*client says end*/
+	/*contact*/
+	#contact_me{
+		text-align: center;
+		margin-top: 40px;
+	}
+
+
+	/*contact end*/
+}
+
+
+/*MEDIA QUERIES END*/
